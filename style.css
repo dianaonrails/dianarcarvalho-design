@@ -3,8 +3,39 @@
 	src: url("fonts/Grandiosity-Regular.otf");
 }
 
+@font-face{
+	font-family: "Avenir";
+	src: url("fonts/AvenirNextLTPro-Regular.otf");
+}
+
+@font-face{
+	font-family: "Avenir";
+	src: url("fonts/AvenirNextLTPro-Regular.otf");
+}
+
+@font-face{
+	font-family: "AvenirBold";
+	src: url("fonts/AvenirNextLTPro-Bold.otf");
+}
+
+@font-face{
+	font-family: "Metropolis";
+	src: url("fonts/Metropolis/Metropolis-Regular.otf");
+}
+
+@font-face{
+	font-family: "MetropolisMedium";
+	src: url("fonts/Metropolis/Metropolis-Medium.otf");
+}
+
+@font-face{
+	font-family: "MetropolisLight";
+	src: url("fonts/Metropolis/Metropolis-Light.otf");
+}
+
+
 nav{
-	  display: inline-flex;
+	  
 }
 
 .navbar__logo{
@@ -14,19 +45,23 @@ nav{
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
+	display: flex;
+    justify-content: start;
+    margin-left: 80px;
+    float: left;
 }
 
 .navbar__list{
 	list-style-type: none;
-  margin: 0;
+      margin-right: 80px;
   padding: 0;
   overflow: hidden;	
-  display: inline-flex;
-  justify-content: flex-end;
+  display: flex;
+  justify-content: end;
 }
 
 .navbar__list-item{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'MetropolisLight';
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
@@ -39,5 +74,82 @@ nav{
 
 }
 .navbar__list-item a{
+	text-decoration: none;
+	color: #535255;
 
 }
+
+.navbar__list-item a:hover{
+	font-family: 'MetropolisLight';
+	text-decoration: underline;
+
+}
+
+.intro-block{
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+	margin-left: 10%;
+    margin-top: 5%;
+}
+
+.intro-photo{
+	display: flex;
+	
+}
+
+
+.intro-text{
+	
+	display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.intro-headline{
+	font-family: 'Metropolis';
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	width: 100%;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: end;
+  	margin-bottom:20px;
+  	color:#332E2E;
+
+}
+
+.intro-sections{
+	font-family: 'MetropolisLight';
+	color: #514F4F;
+	font-size: 14px;
+	width: 100%;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: start;
+  	flex-basis: 50px;
+}
+
+.intro-othertext{
+	font-family: 'MetropolisLight';
+	color: #514F4F;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	width: 100%;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: start;
+  	line-height: 1.5;
+  	flex-direction: column;
+  	padding-right: 80px;
+}
+
+
+
+
