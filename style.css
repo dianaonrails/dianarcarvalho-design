@@ -1,0 +1,43 @@
+@font-face{
+	font-family: "Grandiosity";
+	src: url("fonts/Grandiosity-Regular.otf");
+}
+
+nav{
+	  display: inline-flex;
+}
+
+.navbar__logo{
+	font-family: 'Grandiosity';
+	color: #000;
+	font-size: 51px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.navbar__list{
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;	
+  display: inline-flex;
+  justify-content: flex-end;
+}
+
+.navbar__list-item{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;	
+
+	display: block;
+  	text-align: center;
+  	padding: 16px;
+  	text-decoration: none;												
+
+}
+.navbar__list-item a{
+
+}
