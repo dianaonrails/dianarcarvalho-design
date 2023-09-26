@@ -33,6 +33,10 @@
 	src: url("fonts/Metropolis/Metropolis-Light.otf");
 }
 
+body{
+	margin-left: 80px;
+	margin-right: 80px;
+}
 
 nav{
 	  
@@ -47,13 +51,12 @@ nav{
 	line-height: normal;
 	display: flex;
     justify-content: start;
-    margin-left: 80px;
     float: left;
 }
 
 .navbar__list{
 	list-style-type: none;
-      margin-right: 80px;
+
   padding: 0;
   overflow: hidden;	
   display: flex;
@@ -91,6 +94,7 @@ nav{
 	justify-content:center;
 	margin-left: 10%;
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .intro-photo{
@@ -150,6 +154,14 @@ nav{
   	padding-right: 80px;
 }
 
+
+.work-showcase{
+	display: flex;
+	font-family: 'MetropolisMedium';
+	font-size: 24px;
+	flex-wrap: wrap;
+    flex-direction: column;
+}
 
 
 
